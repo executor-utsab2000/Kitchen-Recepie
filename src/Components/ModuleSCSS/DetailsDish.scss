@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cute+Font&family=Protest+Guerrilla&family=Protest+Riot&display=swap');
+
+.detailDish {
+    background-color: #fec89a;
+    padding-top: 10rem;
+    font-weight: 700;
+
+
+
+    header {
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        font-family: 'Protest Guerrilla', sans-serif;
+        letter-spacing: 3px;
+    }
+
+    .description {
+        text-align: justify;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        word-spacing: 2px;
+        font-family: 'Protest Riot', sans-serif;
+        letter-spacing: 0.5px;
+
+    }
+
+    .header2 {
+        font-size: 1.5rem;
+        font-family: 'Anton', sans-serif;
+
+    }
+
+    .itemNames {
+        font-size: 1rem;
+        text-align: center;
+        letter-spacing: 0.5px;
+        font-family: 'Cute Font', sans-serif;
+        // cursor: url('../../../Images/cursor.png'), auto;
+        text-transform: capitalize;
+
+        &:hover {
+            color: #403d39;
+            text-decoration: underline;
+        } 
+
+    }
+
+    .methodList {
+        font-size: 1.1rem;
+        text-align: justify;
+        font-family: 'Cute Font', sans-serif;
+
+        span {
+            font-size: 0.9rem;
+        }
+    }
+
+
+    
+    .imageContainer {
+        position: relative;
+        background-image: url('../../../Images/imgsDishes.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 5rem;
+        height: 20rem;
+        width: 100%;
+        border: 2px solid black;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        img {
+            position: relative;
+            height: 20rem;
+            width: 100%;
+            top: -15px;
+            left: -12px;
+            border: 2px solid black;
+            aspect-ratio: 2/3;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+        }
+    }
+
+
+    .scrollUpIcon{
+        position: fixed;
+        bottom:  4rem;
+        right: 0.5rem;
+        
+        i{
+            display: none;
+            transition: 0.3s; 
+            padding: 1rem;
+            border-radius: 50%;
+            background-color: #fca311;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            
+            &:hover{
+                transform: rotate(135deg);
+                color: red;
+            }
+        }
+
+
+        
+        
+    }
+
+
+}
+
+
+
+
